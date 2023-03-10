@@ -1,6 +1,6 @@
-# nmlab
+# Networking and Multimedia Lab
 
-Code Explain
+> Code Explain
 
 * Under "./data", there are several owners, and each owner has two directories:
     1. localStorage is used to store "DID"
@@ -18,7 +18,7 @@ Code Explain
     1. VC_transfer
     2. VC_revoke
 
-How to execute?
+> How to execute?
 
 1. go to directory pi@raspberrypi:~/nmlab/src
 2. type `python main.py`
@@ -29,7 +29,7 @@ How to execute?
 3. if a gun is assembled by item 1, item 2, item 3 in the facory A and having an issuer C, please input `assemble factory_A_did issuer_C_did item_I1_did item_I2_did item_I3_did`
 4. if the item I need to be revocated, please input `revoke organization_A_did item_I_did`
 
-The discription of VC type:
+>The discription of VC type:
 1. transfer (A sells i to D):
     * holder: A
     * issuer: MOD
