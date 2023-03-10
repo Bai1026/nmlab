@@ -1,0 +1,42 @@
+[
+  {
+    "@context": ["https://wid.org/security/vI"],
+    "id": "http://example.gov/credentials/3732",
+    "type": ["'Credential", "ProofOfAgeCredential"],
+    "issuer": "https://dmv.example. gov",
+    "issued": "2010-01-01",
+    "claim": {
+      "id": "did: example: ebfeb1f712ebc6f1c27612ec21",
+      "ageOver": 21
+    },
+    "revocation": { "id": "hi", "type": "dkaljsdfsdfkey2022" },
+    "signaturel": {
+      "type": "LinkedDataSignature2022",
+      "created": "2022-12-31",
+      "creator": "http://example.com",
+      "domain": "json-ld.org",
+      "nonce": "sdfrerws",
+      "signatureValue": "sgh;aldhg;aljdhgh;adlgh;adighaw;dgih"
+    }
+  },
+  {
+    "@context": ["https://wid.org/security/vI"],
+    "id": "http://example.gov/credentials/3732",
+    "type": ["'Credential", "ProofOfAgeCredential"],
+    "issuer": "https://dmv.example. gov",
+    "issued": "2010-01-01",
+    "claim": {
+      "id": "did: example: ebfeb1f712ebc6f1c27612ec21",
+      "ageOver": 21
+    },
+    "revocation": { "id": "hi", "type": "dkaljsdfsdfkey2022" },
+    "signaturel": {
+      "type": "LinkedDataSignature2022",
+      "created": "2022-12-31",
+      "creator": "http://example.com",
+      "domain": "json-ld.org",
+      "nonce": "sdfrerws",
+      "signatureValue": "sgh;aldhg;aljdhgh;adlgh;adighaw;dgih"
+    }
+  }
+]
