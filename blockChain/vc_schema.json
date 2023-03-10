@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://w3id.org/security/v1"
+    ],
+    "id": "did:example:123456789_A_transfer_B",
+    "type": [
+        "Credential",
+        "Ownership_transfer"
+    ],
+    "issuer": "did:example:123456789_A_factory",
+    "issued": "2010-01-01",
+    "claim": {
+        "holder": "did:example:123456789_A_factory",
+        "verifier": "did:example:123456789_B_factory",
+        "item": "did:example:123456789_gun_stock"
+    },
+    "revocation": {
+        "id": "http://example.gov/revocation/738",
+        "type": "SimpleRevocationList2022"
+    },
+    "signature": {
+        "type": "LinkedDataSignature2022",
+        "created": "2023-01-02 21:36:50.176441",
+        "creator": "http://example.com",
+        "domain": "json-ld.org",
+        "nonce": "12345678",
+        "signatureValue": "encryptionOfWholeDocument"
+    }
+}
